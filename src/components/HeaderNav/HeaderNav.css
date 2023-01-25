@@ -1,0 +1,29 @@
+.HeaderNav {
+    background-color: #042563;
+    color: #FCFCFF;
+    text-align: center;
+    height: 7vh;
+}
+
+.NavLinks {
+    color: #FCFCFF;
+    padding-right: 20vw;
+}
+
+.nav-link {
+    color: #FCFCFF !important;
+}
+
+.navbar-brand {
+    color: #FCFCFF !important;
+    padding-left: 20vw;
+}
+
+.navbar-toggler-collapsed {
+    border-color: #FCFCFF !important;
+}
+
+.navbar-toggler {
+    border-color: #FCFCFF !important;
+    color: #FCFCFF !important;
+}
