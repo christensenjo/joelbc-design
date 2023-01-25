@@ -6,7 +6,7 @@ import HeaderNav from './components/HeaderNav/HeaderNav.js';
 
 function App() {
   return (
-    <Container className="App" fluid noGutters>
+    <Container className="App">
       <HeaderNav></HeaderNav>
       {/* Hero */}
       {/* TechStack */}

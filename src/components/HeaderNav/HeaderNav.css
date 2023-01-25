@@ -5,13 +5,8 @@
     height: 7vh;
 }
 
-.NavLinks {
-    color: #FCFCFF;
+.navbar-expand-md .navbar-nav .nav-link {
     padding-right: 20vw;
-}
-
-.nav-link {
-    color: #FCFCFF !important;
 }
 
 .navbar-brand {
@@ -19,9 +14,18 @@
     padding-left: 20vw;
 }
 
-.navbar-toggler-collapsed {
-    border-color: #FCFCFF !important;
+.nav-link {
+    color: #FCFCFF;
 }
+
+.offcanvas-header {
+    color: #042563 !important;
+}
+
+.navbar-nav {
+    padding-right: 20vw;
+}
+
 
 .navbar-toggler {
     border-color: #FCFCFF !important;
