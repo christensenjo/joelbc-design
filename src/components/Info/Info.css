@@ -1,0 +1,59 @@
+.Info {
+    padding-top: 20vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.InfoRight {
+    text-align: right;
+}
+
+.InfoLeft {
+    text-align: left;
+}
+
+.InfoImg {
+    height: 50vh;
+}
+
+.Info h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+.Info p {
+    line-height: 30px;
+    padding-bottom: 2vh;
+}
+
+.InfoButtonHidden {
+    background-color: #042563;
+    color: #FCFCFF;
+    height: 7.8vh;
+    width: 9.3vw;
+    border-radius: 20px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.InfoButton {
+    background-color: #042563 !important;
+    height: 7.8vh !important;
+    width: 9.3vw !important;
+    border-radius: 20px !important;
+}
+
+.InfoButton:hover {
+    background-color: #3F3D56 !important;
+}
+
+.Info a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #FCFCFF;
+    height: 100%;
+    padding-top: 10%;
+}

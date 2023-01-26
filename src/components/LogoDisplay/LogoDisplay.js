@@ -12,7 +12,7 @@ import css3 from './css3.png';
 
 function LogoDisplay(props){
     return (
-        <Container className="LogoContainer">
+        <div className="LogoContainer">
             <p>joelbc-design is built with:</p>
             <Row className="LogoRow justify-content-center">
                 <Col>
@@ -31,7 +31,7 @@ function LogoDisplay(props){
                     <img src={css3} alt="CSS3 logo" />
                 </Col>
             </Row>
-        </Container>
+        </div>
     );
 }
 
