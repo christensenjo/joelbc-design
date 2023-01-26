@@ -15,17 +15,24 @@ function App() {
   
   return (
     <Container className="App" fluid>
-      <HeaderNav></HeaderNav>
-      <Hero></Hero>
-      {/* TechStack */}
-      {/* Info */}
-      {/* Info */}
-      {/* Contact */}
-      {/* FooterBar */}
+      <div className="ContentWrapper">
+        <HeaderNav></HeaderNav>
+        <Hero></Hero>
+        {/* TechStack */}
+        {/* Info */}
+        {/* Info */}
+        {/* Contact */}
+        {/* FooterBar */}
 
-      <div style={patientStyle}>
-        <img src={construction} alt="Construction icon" />
-        <h1>Please be patient, this project is under construction...</h1>
+        <div style={patientStyle}>
+          <img src={construction} alt="Construction icon" />
+          <h1>Please be patient, this project is under construction...</h1>
+        </div>
+      </div>
+      <div className="BgGradients">
+        <div className="Grad1"></div>
+        <div className="Grad2"></div>
+        <div className="Grad3"></div>
       </div>
     </Container>
   );

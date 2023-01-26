@@ -9,11 +9,12 @@ function Hero(props){
     return (
         <Row className="Hero" md="12">
             <Col md="6">
-                <Stack gap={2}>
-                    <h1>
-                        Hi, I'm <div className="TitleEmphasis">Joel Christensen.</div> 
-                        I'm A Full-Stack Engineer.
-                    </h1>
+                <Stack gap={2} className="TitleGroup">
+                    <div className="Title">
+                        <h1>
+                            Hi, I'm </h1> <div className="TitleEmphasis">Joel Christensen.</div> 
+                        <br /><h1>I'm A Full-Stack Engineer. </h1>
+                    </div>
                     <p>
                         Web Development and Software Engineering have been my passion since I was 14. Let's build greatness together.
                     </p>
