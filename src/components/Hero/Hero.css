@@ -1,0 +1,18 @@
+.Hero {
+    padding-top: 14vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.Hero h1 {
+    align-items: center;
+    text-transform: capitalize;
+    line-height: 100px;
+    font-weight: 600;
+    font-size: 4.6vh;
+    font-style: normal;
+}
+
+.ProfilePortrait {
+    height: 50vh;
+}

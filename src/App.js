@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import construction from './construction.svg';
-
 import Container from 'react-bootstrap/Container';
 import HeaderNav from './components/HeaderNav/HeaderNav.js';
+import Hero from './components/Hero/Hero.js';
 
 function App() {
   const patientStyle = (
@@ -14,9 +14,9 @@ function App() {
   );
   
   return (
-    <Container className="App">
+    <Container className="App" fluid>
       <HeaderNav></HeaderNav>
-      {/* Hero */}
+      <Hero></Hero>
       {/* TechStack */}
       {/* Info */}
       {/* Info */}

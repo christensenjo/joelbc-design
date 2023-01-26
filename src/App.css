@@ -6,3 +6,8 @@
   padding-left: 0;
   padding-right: 0;
 }
+
+.App p {
+  color: #3F3D56;
+  font-size: 18px;
+}
