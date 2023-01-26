@@ -4,6 +4,7 @@ import construction from './construction.svg';
 import Container from 'react-bootstrap/Container';
 import HeaderNav from './components/HeaderNav/HeaderNav.js';
 import Hero from './components/Hero/Hero.js';
+import LogoDisplay from './components/LogoDisplay/LogoDisplay';
 
 function App() {
   const patientStyle = (
@@ -18,7 +19,7 @@ function App() {
       <div className="ContentWrapper">
         <HeaderNav></HeaderNav>
         <Hero></Hero>
-        {/* TechStack */}
+        <LogoDisplay></LogoDisplay>
         {/* Info */}
         {/* Info */}
         {/* Contact */}

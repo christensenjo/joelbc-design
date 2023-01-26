@@ -1,0 +1,23 @@
+.LogoContainer {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 20vh;
+}
+
+.LogoContainer p {
+    margin: 0 !important;
+}
+
+.LogoRow {
+    background-color: #042563;
+    border-radius: 20px;
+}
+
+.LogoRow img {
+    height: 12vh;
+    margin: auto;
+    padding-left: 4vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    mix-blend-mode: luminosity;
+}
