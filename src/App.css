@@ -13,37 +13,56 @@
   font-size: 18px;
 }
 
-.ContentWrapper {
-  position: relative;
-  z-index: 3;
-}
 
-.BgGradients {
-  position: absolute;
-  z-index: 1;
-}
-
-.Grad1 {
-  position: relative;
-  width: 60vh;
-  height: 60vh;
-  border-radius: 10%;
-  background: #3F3D56;
-  filter: blur(100px);
-  opacity: 75%;
-  top: -125vh;
-  left: -10vh;
-}
-
-.Grad2 {
-  position: relative;
-  width: 60vh;
-  height: 60vh;
-  border-radius: 10%;
-  background: #d5a941;
-  filter: blur(100px);
-  opacity: 65%;
-  top: -125vh;
-  left: 140vh;
-  overflow: hidden !important;
+/* Desktop Styles */
+@media only screen and (min-width: 600px) {
+  .App {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    background-color: #FCFCFF;
+    color: #042563;
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+  }
+  
+  .App p {
+    color: #3F3D56;
+    font-size: 18px;
+  }
+  
+  .ContentWrapper {
+    position: relative;
+    z-index: 3;
+  }
+  
+  .BgGradients {
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .Grad1 {
+    position: relative;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 10%;
+    background: #3F3D56;
+    filter: blur(100px);
+    opacity: 75%;
+    top: -125vh;
+    left: -10vh;
+  }
+  
+  .Grad2 {
+    position: relative;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 10%;
+    background: #d5a941;
+    filter: blur(100px);
+    opacity: 65%;
+    top: -125vh;
+    left: 140vh;
+    overflow: hidden !important;
+  }
 }

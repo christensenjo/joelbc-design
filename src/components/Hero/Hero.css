@@ -1,11 +1,48 @@
-.Hero {
-    padding-top: 20vh;
-    padding-left: 20vw;
-    padding-right: 20vw;
+@media only screen and (min-width: 600px) {
+    /* Default desktop styles */
+    .Title h1 {
+        align-items: center;
+        text-transform: capitalize;
+        line-height: 100px;
+        font-weight: 600;
+        font-size: 4.6vh;
+        font-style: normal;
+        display: inline;
+        vertical-align: top;
+    }
+
+    .Hero {
+        padding-top: 20vh;
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+    
+    .TitleGroup {
+        padding-top: 10vh;
+    }
+    
+    .TitleEmphasis {
+        display: inline;
+        vertical-align: top;
+        text-transform: capitalize;
+        color: #d5a941;
+        font-family: 'Kristi';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 9vh;
+        line-height: 100px;
+    }
+    
+    .ProfilePortrait {
+        height: 50vh;
+    }
+
 }
 
-.TitleGroup {
-    padding-top: 10vh;
+
+/* Mobile styles */
+.Hero {
+    padding-top: 12vh;
 }
 
 .Title h1 {
@@ -13,7 +50,7 @@
     text-transform: capitalize;
     line-height: 100px;
     font-weight: 600;
-    font-size: 4.6vh;
+    font-size: 3.5vh;
     font-style: normal;
     display: inline;
     vertical-align: top;
@@ -27,10 +64,10 @@
     font-family: 'Kristi';
     font-style: italic;
     font-weight: 400;
-    font-size: 9vh;
+    font-size: 7vh;
     line-height: 100px;
 }
 
 .ProfilePortrait {
-    height: 50vh;
+    height: 40vh;
 }

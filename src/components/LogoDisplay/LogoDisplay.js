@@ -2,12 +2,12 @@ import React from 'react';
 import './LogoDisplay.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
 import reactL from './react.png';
 import reactB from './react_bootstrap.png';
 import jvs from './javascript.png';
 import html5 from './html5.png';
 import css3 from './css3.png';
+import figma from './figma.png';
 
 
 function LogoDisplay(props){
@@ -29,6 +29,9 @@ function LogoDisplay(props){
                 </Col>
                 <Col>
                     <img src={css3} alt="CSS3 logo" />
+                </Col>
+                <Col>
+                    <img src={figma} alt="Figma logo" />
                 </Col>
             </Row>
         </div>

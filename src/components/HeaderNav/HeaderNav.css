@@ -1,3 +1,4 @@
+/* Mobile styles */
 .HeaderNav {
     background-color: #042563;
     color: #FCFCFF;
@@ -11,11 +12,12 @@
 
 .navbar-brand {
     color: #FCFCFF !important;
-    padding-left: 20vw;
+    padding-left: 5vw;
 }
 
 .nav-link {
     color: #FCFCFF;
+    text-align: right;
 }
 
 .offcanvas-header {
@@ -30,4 +32,42 @@
 .navbar-toggler {
     border-color: #FCFCFF !important;
     color: #FCFCFF !important;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 600px) {
+    .HeaderNav {
+        background-color: #042563;
+        color: #FCFCFF;
+        text-align: center;
+        height: 7vh;
+    }
+    
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 20vw;
+    }
+    
+    .navbar-brand {
+        color: #FCFCFF !important;
+        padding-left: 20vw;
+    }
+    
+    .nav-link {
+        color: #FCFCFF;
+    }
+    
+    .offcanvas-header {
+        color: #042563 !important;
+    }
+    
+    .navbar-nav {
+        padding-right: 20vw;
+    }
+    
+    
+    .navbar-toggler {
+        border-color: #FCFCFF !important;
+        color: #FCFCFF !important;
+    }
+
 }

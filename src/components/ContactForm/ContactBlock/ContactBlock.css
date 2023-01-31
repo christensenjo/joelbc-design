@@ -1,0 +1,13 @@
+.ContactBlockRow {
+    display: inline;
+}
+
+.ContactIcon {
+    height: 6vh;
+    width: auto !important;
+    display: inline;
+}
+
+.ContactDetails {
+    display: inline;
+}

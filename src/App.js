@@ -6,6 +6,7 @@ import HeaderNav from './components/HeaderNav/HeaderNav.js';
 import Hero from './components/Hero/Hero.js';
 import LogoDisplay from './components/LogoDisplay/LogoDisplay.js';
 import Info from './components/Info/Info.js'
+// import ContactForm from './components/ContactForm/ContactForm';
 
 function App() {
   const patientStyle = (
@@ -42,7 +43,7 @@ function App() {
           align="left"
         >
         </Info>
-        {/* Contact */}
+        {/* <ContactForm></ContactForm> */}
         {/* FooterBar */}
 
         <div style={patientStyle}>
