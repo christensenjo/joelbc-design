@@ -29,7 +29,7 @@ function App() {
           img="about"
           title="About Me"
           text={aboutText}
-          buttonText="learn more"
+          buttonText="Learn More"
           buttonHref="#about"
           align="right"
         >
@@ -38,7 +38,7 @@ function App() {
           img="portfolio"
           title="Experience & Portfolio"
           text={portText}
-          buttonText="visit my github"
+          buttonText="Visit my Github"
           buttonHref="http://www.github.com/christensenjo"
           align="left"
         >
@@ -51,11 +51,11 @@ function App() {
           <h1>Please be patient, this project is under construction...</h1>
         </div>
       </div>
-      <div className="BgGradients">
+      {/* <div className="BgGradients">
         <div className="Grad1"></div>
         <div className="Grad2"></div>
         <div className="Grad3"></div>
-      </div>
+      </div> */}
     </Container>
   );
 }

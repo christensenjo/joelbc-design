@@ -22,7 +22,7 @@ class Info extends React.Component{
 
         const leftButton = (
             <Stack direction="horizontal">
-                <Button className="InfoButton" variant="light">
+                <Button className="InfoButton">
                     <a href={this.buttonHref}>
                         {this.buttonText}
                     </a>

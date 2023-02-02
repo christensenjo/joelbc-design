@@ -29,10 +29,12 @@
 
 .InfoButton {
     background-color: #042563 !important;
-    height: 7.8vh !important;
-    width: 40vw !important;
+    height: 50px !important;
+    width: 178px !important;
     border-radius: 20px !important;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .InfoButton:hover {
@@ -45,7 +47,7 @@
     text-decoration: none;
     color: #FCFCFF;
     height: 100%;
-    padding-top: 10%;
+    line-height: 40px;
 }
 
 /* Desktop Styles */
@@ -93,22 +95,30 @@
     
     .InfoButton {
         background-color: #042563 !important;
-        height: 7.8vh !important;
-        width: 9.3vw !important;
+        height: 50px !important;
+        width: 178px !important;
         border-radius: 20px !important;
+        display: flex;
+        justify-content: center;
     }
     
     .InfoButton:hover {
         background-color: #3F3D56 !important;
+        color: #FCFCFF !important;
+    }
+
+    .InfoButton a:hover {
+        color: #FCFCFF !important;
     }
     
     .Info a {
-        display: block;
+        display: flex;
         text-align: center;
         text-decoration: none;
         color: #FCFCFF;
         height: 100%;
-        padding-top: 10%;
+        justify-content: center;
+        line-height: 40px;
     }
 
 

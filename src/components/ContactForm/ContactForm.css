@@ -1,5 +1,14 @@
-.Contact {
+.FormTitleText {
     padding-top: 10vh;
+    text-align: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.Contact {
+    padding-top: 5vh;
     padding-left: 20vw !important;
     padding-right: 20vw !important;
 }
@@ -14,5 +23,32 @@
 }
 
 .FormControl {
-    background-color: #3F3D56;
+    background-color: #3F3D56 !important;
+    border-radius: 20px !important;
+    opacity: 65% !important;
+    color: #FCFCFF !important;
+}
+
+.form-control::placeholder {
+    color: rgba(252, 252, 255, 0.5) !important;
+    /* color: #FCFCFF !important; */
+    opacity: 100% !important;
+    background-clip: text;
+}
+
+.FormSubmitButton {
+    background-color: #042563 !important;
+    height: 50px !important;
+    width: 178px !important;
+    border-radius: 20px !important;
+    font-size: 18px !important;
+
+}
+
+.FormSubmitButton:hover {
+    background-color: #3F3D56 !important;
+}
+
+.FormButtonRow {
+    align-content: center;
 }
