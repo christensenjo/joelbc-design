@@ -45,13 +45,13 @@ function App() {
         >
         </Info>
         <ContactForm></ContactForm>
-        <Footer></Footer>
 
         {/* <div style={patientStyle}>
           <img src={construction} alt="Construction icon" />
           <h1>Please be patient, this project is under construction...</h1>
         </div> */}
       </div>
+      <Footer></Footer>
       {/* <div className="BgGradients">
         <div className="Grad1"></div>
         <div className="Grad2"></div>

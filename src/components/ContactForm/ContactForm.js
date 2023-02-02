@@ -18,21 +18,31 @@ function ContactForm(props){
             </div>
             <Row md="12" className="Contact">
                 <Col md="2">
-                    <Stack className="ContactIcons" gap={5}>
+                    <Stack className="ContactIconsDesk" gap={5}>
+                        <img src={email} alt="Email icon" />
+                        <img src={phone} alt="Phone icon" />
+                        <img src={location} alt="Location icon" />
+                    </Stack>
+                    <Stack direction="horizontal" className="ContactIconsMob" gap={5}>
                         <img src={email} alt="Email icon" />
                         <img src={phone} alt="Phone icon" />
                         <img src={location} alt="Location icon" />
                     </Stack>
                 </Col>
                 <Col md="3">
-                    <Stack gap={5} className="ContactInfo">
+                    <Stack gap={5} className="ContactInfoDesk">
+                            <p>Email me: <br /><strong>christensenjo14@gmail.com</strong></p>
+                            <p>Call me: <br /><strong>+1-208-749-7563</strong></p>
+                            <p>Homebase: <br /><strong>Logan, UT, USA</strong></p>
+                    </Stack>
+                    <Stack gap={1} className="ContactInfoMob">
                             <p>Email me: <br /><strong>christensenjo14@gmail.com</strong></p>
                             <p>Call me: <br /><strong>+1-208-749-7563</strong></p>
                             <p>Homebase: <br /><strong>Logan, UT, USA</strong></p>
                     </Stack>
                 </Col>
                 <Col md="7" className="ContactFormCol">
-                    <Form>
+                    <Form className="FormFull" action="mailto:christensenjo14@gmail.com" method="post" target="_blank">
                         <Stack gap={4}>
                             <Row md="12">
                                 <Form.Group as={Col} md="6" controlId="formFullName">
@@ -48,9 +58,9 @@ function ContactForm(props){
                             <Form.Group>
                                 <Form.Control size="md" as="textarea" rows="5" placeholder="Message" className="FormControl" />
                             </Form.Group>
-                            <Row className="justify-content-md-end">
-                                <Form.Group as={Col} md="auto">
-                                    <Button size="lg" className="FormSubmitButton">Submit</Button>
+                            <Row className="FormButtonRow">
+                                <Form.Group as={Col} md="auto" className="FormButtonRowMob">
+                                    <Button size="lg" type="submit" className="FormSubmitButton">Submit</Button>
                                 </Form.Group>
                             </Row>
                         </Stack>

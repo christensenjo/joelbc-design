@@ -1,25 +1,42 @@
+.FormFull {
+    display: flex;
+}
+
 .FormTitleText {
-    padding-top: 10vh;
     text-align: center;
-    padding-left: 20vw;
-    padding-right: 20vw;
     max-width: 70vw;
     margin: auto;
 }
 
-.Contact {
-    padding-top: 5vh;
-    padding-left: 20vw !important;
-    padding-right: 20vw !important;
+.ContactInfo {
+    row-gap: 3rem !important;
 }
 
-.ContactIcons img {
+.ContactIconsDesk img {
+    display: none;
+}
+
+.ContactInfoDesk p {
+    display: none;
+}
+
+.ContactInfoMob p {
+    overflow-wrap: break-word;
+    text-align: center;
+    display: block;
+}
+
+.ContactIconsMob {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3vh;
+    padding-top: 2vh;
+    display: block;
+}
+
+.ContactIconsMob img {
     height: 7vh;
     width: auto;
-}
-
-.ContactInfo p {
-    overflow-wrap: break-word;
 }
 
 .FormControl {
@@ -50,5 +67,79 @@
 }
 
 .FormButtonRow {
-    align-content: center;
+    justify-content: end !important;
+    display: flex !important;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 600px) {
+    .FormTitleText {
+        padding-top: 10vh;
+        text-align: center;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        max-width: 70vw;
+        margin: auto;
+    }
+    
+    .Contact {
+        padding-top: 5vh;
+        padding-left: 20vw !important;
+        padding-right: 20vw !important;
+    }
+    
+    .ContactIconsDesk img {
+        height: 7vh;
+        width: auto;
+        display: block;
+    }
+    
+    .ContactInfoDesk p {
+        overflow-wrap: break-word;
+        display: block;
+    }
+
+    .ContactIconsMob {
+        display: none !important;
+    }
+
+    .ContactInfoMob {
+        display: none !important;
+    }
+    
+    .FormControl {
+        background-color: #3F3D56 !important;
+        border-radius: 20px !important;
+        opacity: 65% !important;
+        color: #FCFCFF !important;
+    }
+    
+    .form-control::placeholder {
+        color: rgba(252, 252, 255, 0.5) !important;
+        /* color: #FCFCFF !important; */
+        opacity: 100% !important;
+        background-clip: text;
+    }
+
+    .FormSubmitButton {
+        background-color: #042563 !important;
+        height: 50px !important;
+        width: 178px !important;
+        border-radius: 20px !important;
+        font-size: 18px !important;
+    
+    }
+    
+    .FormSubmitButton:hover {
+        background-color: #3F3D56 !important;
+    }
+    
+    .FormButtonRow {
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .FormButtonRowMob {
+        justify-content: center !important;
+    }
 }

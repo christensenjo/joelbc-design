@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 function Footer(props) {
     return (
         <div className="FooterContainer">
-            <Container fluid noGutters>
+            <Container fluid>
                     <p className="FooterText">Built by Joel Christensen -- 2023.</p>
             </Container>
         </div>

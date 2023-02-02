@@ -3,9 +3,14 @@
   font-family: 'Lato', sans-serif;
   background-color: #FCFCFF;
   color: #042563;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   overflow-x: hidden;
+}
+
+.ContentWrapper {
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  padding-right: calc(var(--bs-gutter-x) * .5);
 }
 
 .App p {
