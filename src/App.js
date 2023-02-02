@@ -6,7 +6,8 @@ import HeaderNav from './components/HeaderNav/HeaderNav.js';
 import Hero from './components/Hero/Hero.js';
 import LogoDisplay from './components/LogoDisplay/LogoDisplay.js';
 import Info from './components/Info/Info.js'
-import ContactForm from './components/ContactForm/ContactForm';
+import ContactForm from './components/ContactForm/ContactForm.js';
+import Footer from './components/Footer/Footer.js';
 
 function App() {
   const patientStyle = (
@@ -44,12 +45,12 @@ function App() {
         >
         </Info>
         <ContactForm></ContactForm>
-        {/* FooterBar */}
+        <Footer></Footer>
 
-        <div style={patientStyle}>
+        {/* <div style={patientStyle}>
           <img src={construction} alt="Construction icon" />
           <h1>Please be patient, this project is under construction...</h1>
-        </div>
+        </div> */}
       </div>
       {/* <div className="BgGradients">
         <div className="Grad1"></div>

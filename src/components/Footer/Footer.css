@@ -1,0 +1,15 @@
+.FooterContainer {
+    background-color: #042563;
+    margin-top: 10vh;
+    height: 5vh;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    display: flex;
+}
+
+.FooterText {
+    display: flex;
+    color: #FFFFFF8C !important;
+    justify-content: center;
+    line-height: 5vh;
+}

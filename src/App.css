@@ -21,8 +21,8 @@
     font-family: 'Lato', sans-serif;
     background-color: #FCFCFF;
     color: #042563;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     overflow-x: hidden;
   }
   
@@ -34,6 +34,8 @@
   .ContentWrapper {
     position: relative;
     z-index: 3;
+    padding: 0;
+    margin: 0;
   }
   
   .BgGradients {
