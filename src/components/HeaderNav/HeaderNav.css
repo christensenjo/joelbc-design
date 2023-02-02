@@ -6,9 +6,9 @@
     height: 7vh;
 }
 
-.navbar-expand-md .navbar-nav .nav-link {
+/* .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 20vw;
-}
+} */
 
 .navbar-brand {
     color: #FCFCFF !important;
@@ -35,6 +35,11 @@
     color: #FCFCFF !important;
 }
 
+.NavImg {
+    height: 3.2vh;
+    width: 3.2vh;
+}
+
 /* Desktop Styles */
 @media only screen and (min-width: 600px) {
     .HeaderNav {
@@ -44,9 +49,9 @@
         height: 7vh;
     }
     
-    .navbar-expand-md .navbar-nav .nav-link {
+    /* .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 20vw;
-    }
+    } */
     
     .navbar-brand {
         color: #FCFCFF !important;
@@ -54,21 +59,27 @@
     }
     
     .nav-link {
-        color: #FCFCFF;
+        line-height: 7vh;
     }
     
     .offcanvas-header {
         color: #042563 !important;
     }
     
-    .navbar-nav {
-        padding-right: 20vw;
-    }
+    /* .navbar-nav {
+        padding-right: 20vw !important;
+    } */
     
     
     .navbar-toggler {
         border-color: #FCFCFF !important;
         color: #FCFCFF !important;
+    }
+
+    .NavImg {
+        height: 3.2vh;
+        width: 3.2vh;
+        mix-blend-mode: luminosity;
     }
 
 }

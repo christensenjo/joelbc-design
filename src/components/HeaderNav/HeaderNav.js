@@ -4,6 +4,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import github from './github_logo.png';
+import insta from './insta.png';
+import linkedin from './linkedin_logo.png';
+import twitter from './twitter.png';
 
 function HeaderNav(props) {
     return (
@@ -24,10 +28,14 @@ function HeaderNav(props) {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-center flex-grow-1 pe-3">
+                <Nav className="flex-grow pe-3">
                   <Nav.Link href="#action1">about me</Nav.Link>
                   <Nav.Link href="https://www.github.com/christensenjo">portfolio</Nav.Link>
                   <Nav.Link href="#downloadResume">resume</Nav.Link>
+                  <Nav.Link href="https://github.com/christensenjo"><img src={github} alt="Github logo" className="NavImg" /></Nav.Link>
+                  <Nav.Link href="https://www.linkedin.com/in/joel-christensen-usu/"><img src={linkedin} alt="LinkedIn logo" className="NavImg" /></Nav.Link>
+                  <Nav.Link href="https://twitter.com/dataSaysJoel"><img src={twitter} alt="Twitter logo" className="NavImg" /></Nav.Link>
+                  <Nav.Link href="https://www.instagram.com/joelbc__/"><img src={insta} alt="Instagram logo" className="NavImg" /></Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

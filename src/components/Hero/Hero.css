@@ -45,6 +45,10 @@
     padding-top: 12vh;
 }
 
+.Hero p {
+    text-align: center;
+}
+
 .Title h1 {
     align-items: center;
     text-transform: capitalize;
