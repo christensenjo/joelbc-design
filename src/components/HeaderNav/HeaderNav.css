@@ -26,6 +26,7 @@
 
 .navbar-nav {
     padding-right: 20vw;
+    justify-content: left !important;
 }
 
 

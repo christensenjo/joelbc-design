@@ -51,9 +51,10 @@
 /* Desktop Styles */
 @media only screen and (min-width: 600px) {
     .Info {
-        padding-top: 20vh;
+        padding-top: 10vh;
         padding-left: 20vw;
         padding-right: 20vw;
+        padding-bottom: 0;
     }
     
     .InfoRight {

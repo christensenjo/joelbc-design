@@ -1,0 +1,18 @@
+.Contact {
+    padding-top: 10vh;
+    padding-left: 20vw !important;
+    padding-right: 20vw !important;
+}
+
+.ContactIcons img {
+    height: 7vh;
+    width: auto;
+}
+
+.ContactInfo p {
+    overflow-wrap: break-word;
+}
+
+.FormControl {
+    background-color: #3F3D56;
+}
