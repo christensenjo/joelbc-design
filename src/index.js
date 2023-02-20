@@ -1,16 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import App from './routes/Home/App.js';
+import About from './routes/About/About.js'
 
-// Importing the Bootstrap CSS
+// Importing the Bootstrap CSS & React Router
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/about",
+    element: <About />,
+  },
+  {
+    path: "/portfolio",
+    element: <h1>My Portfolio</h1>,
+  },
+  {
+    path: "/resume",
+    element: <h1>Resume</h1>,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
