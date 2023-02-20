@@ -14,7 +14,7 @@ function ContactForm(props){
         <div>
             <div className="FormTitleText">
                 <h1>Contact Me</h1>
-                <p>Let me know if you’re interested in hiring me, have a lead, could introduce me to someone, or if you just want to say hi!</p>
+                <p>Do you share my passion for creating? Let's connect!</p>
             </div>
             <Row md="12" className="Contact">
                 <Col md="2">
@@ -42,21 +42,21 @@ function ContactForm(props){
                     </Stack>
                 </Col>
                 <Col md="7" className="ContactFormCol">
-                    <Form className="FormFull" action="mailto:christensenjo14@gmail.com" method="post" target="_blank">
+                    <Form className="FormFull" action="https://us-central1-joelbc-design.cloudfunctions.net/sendMail" method="get" >
                         <Stack gap={4}>
                             <Row md="12">
                                 <Form.Group as={Col} md="6" controlId="formFullName">
-                                    <Form.Control size="lg" type="text" placeholder="Full Name" className="FormControl" />
+                                    <Form.Control size="lg" type="text" placeholder="Full Name" name="fullName" id="fullName" className="FormControl" />
                                 </Form.Group>
                                 <Form.Group as={Col} md="6" controlId="formEmail">
-                                    <Form.Control size="lg" type="email" placeholder="Email" className="FormControl" />
+                                    <Form.Control size="lg" type="email" placeholder="Email" name="from" id="from" className="FormControl" />
                                 </Form.Group>
                             </Row>
                             <Form.Group>
-                                <Form.Control size="lg" type="text" placeholder="Subject" className="FormControl" />                                
+                                <Form.Control size="lg" type="text" placeholder="Subject" name="sub" id="sub" className="FormControl" />                                
                             </Form.Group>
                             <Form.Group>
-                                <Form.Control size="md" as="textarea" rows="5" placeholder="Message" className="FormControl" />
+                                <Form.Control size="md" as="textarea" rows="5" placeholder="Message" name="msg" id="msg" className="FormControl" />
                             </Form.Group>
                             <Row className="FormButtonRow">
                                 <Form.Group as={Col} md="auto" className="FormButtonRowMob">
