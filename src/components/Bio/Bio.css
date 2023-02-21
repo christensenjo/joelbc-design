@@ -1,6 +1,6 @@
 @media only screen and (min-width: 600px) {
     /* Default desktop styles */
-    .Title h1 {
+    .BioTitle h1 {
         align-items: center;
         text-transform: capitalize;
         line-height: 100px;
@@ -9,18 +9,19 @@
         font-style: normal;
         display: inline;
         vertical-align: top;
+        padding-left: 25vw;
     }
 
     .Hero {
-        padding-top: 20vh;
+        padding-top: 10vh;
         padding-left: 20vw;
         padding-right: 20vw;
     }
     
-    .TitleGroup {
-        padding-top: 10vh;
+    .BioContent p {
+        padding-top: 2vh;
     }
-    
+
     .TitleEmphasis {
         display: inline;
         vertical-align: top;
@@ -31,6 +32,7 @@
         font-weight: 400;
         font-size: 9vh;
         line-height: 100px;
+        text-align: center;
     }
     
     .CapitalShot {
@@ -49,7 +51,7 @@
     text-align: center;
 }
 
-.Title h1 {
+.BioTitle h1 {
     align-items: center;
     text-transform: capitalize;
     line-height: 100px;
@@ -76,5 +78,5 @@
 }
 
 .CapitalShot {
-    height: 100vh;
+    height: 76vh;
 }

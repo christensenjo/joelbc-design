@@ -15,7 +15,7 @@ function HeaderNav(props) {
       {['md'].map((expand) => (
         <Navbar key={expand} expand={expand} variant="dark" className="HeaderNav" fixed="top">
           <Container fluid>
-            <Navbar.Brand href="#">joelbc-design</Navbar.Brand>
+            <Navbar.Brand href="/">joelbc-design</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -29,9 +29,9 @@ function HeaderNav(props) {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="flex-grow pe-3">
-                  <Nav.Link href="#action1">about me</Nav.Link>
-                  <Nav.Link href="https://www.github.com/christensenjo">portfolio</Nav.Link>
-                  <Nav.Link href="#downloadResume">resume</Nav.Link>
+                  <Nav.Link href="/about">about me</Nav.Link>
+                  <Nav.Link href="/portfolio">portfolio</Nav.Link>
+                  <Nav.Link href="/resume">resume</Nav.Link>
                   <Nav.Link href="https://github.com/christensenjo"><img src={github} alt="Github logo" className="NavImg" /></Nav.Link>
                   <Nav.Link href="https://www.linkedin.com/in/joel-christensen-usu/"><img src={linkedin} alt="LinkedIn logo" className="NavImg" /></Nav.Link>
                   <Nav.Link href="https://twitter.com/dataSaysJoel"><img src={twitter} alt="Twitter logo" className="NavImg" /></Nav.Link>

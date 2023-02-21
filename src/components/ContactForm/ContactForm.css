@@ -67,7 +67,7 @@
 }
 
 .FormButtonRow {
-    justify-content: end !important;
+    justify-content: flex-end !important;
     display: flex !important;
 }
 

@@ -23,7 +23,7 @@ function App() {
           title="About Me"
           text={aboutText}
           buttonText="Learn More"
-          buttonHref="#about"
+          buttonHref="/about"
           align="right"
         >
         </Info>
@@ -32,7 +32,7 @@ function App() {
           title="Experience & Portfolio"
           text={portText}
           buttonText="Visit my Github"
-          buttonHref="http://www.github.com/christensenjo"
+          buttonHref="/portfolio"
           align="left"
         >
         </Info>
